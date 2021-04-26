@@ -1,0 +1,45 @@
+@media (max-width: 1140px) {
+    
+    .center {
+        padding-left: calc(50% - 369px);
+        padding-right: calc(50% - 369px);
+    }
+
+    .products {
+        .feature_items {
+            .items_not {
+                display: none;
+            }
+        }
+    }
+
+    .registration {
+        margin-top: 40px;
+    }
+
+    /* КОРЗИНА */
+
+    .cart {
+        margin-top: 59px;
+
+        &__product {
+            width: 100%;
+
+            &_choice {
+                width: 100%;
+            }
+
+            &_content {
+                max-width: 150px;
+            }
+        }
+
+        &__info {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            margin-top: 64px;
+        }
+    }
+}

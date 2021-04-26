@@ -1,0 +1,118 @@
+@media (max-width: 667px) {
+
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .header {
+        &__box {
+            display: none;
+
+            &_nav {
+                padding: 0 16px 16px;
+                justify-content: space-around;
+                display: flex;
+            }
+        }
+    }
+
+    .products {
+
+        .items_top {
+            margin-top: 67px;
+        }
+
+        .feature_items {
+            .items_mb {
+                margin-bottom: 15px;
+            }
+        }
+    }
+
+    .products_bottom {
+        margin-top: 25px;
+    }
+
+    .copyright {
+        .copy {
+            height: 143px;
+            padding-top: 43px;
+            padding-bottom: 9px;
+            justify-content: center;
+            align-items: space-between;
+        }
+    }
+
+    .header__bottom {
+        .promo__catalog {
+            padding-top: 24px;
+            padding-bottom: 46px;
+            flex-direction: column;
+            justify-content: center;
+        }
+    }
+
+    .registration {
+        flex-direction: column;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    /* КОРЗИНА */
+
+    .cart {
+        margin-top: 39px;
+        margin-bottom: 48px;
+        padding-left: 8px;
+        padding-right: 8px;
+
+        &__product {
+
+            &_choice {
+                height: 188px;
+            }
+
+            &_content {
+                margin: 15px 0px 20px 10px;
+                max-width: 100px;
+            }
+
+            &_heading {
+                font-size: 16px;
+                line-height: 19px;
+            }
+
+            &_text {
+                font-size: 14px;
+                line-height: 17px;
+            }
+
+            &_text:not(:last-child) {
+                margin-bottom: 4px;
+            }
+
+            &_button {
+                margin-top: 17px;
+                margin-right: 12px;
+
+                svg {
+                    height: 10px;
+                }
+            }
+        }
+
+        &__signs {
+            margin: 20px 10px 20px 0px;
+        }
+
+        &__info {
+            flex-direction: column;
+            margin-top: 48px;
+
+            &_checkout {
+                margin-top: 48px;
+            }
+        }
+    }
+}

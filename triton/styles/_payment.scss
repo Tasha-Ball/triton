@@ -1,0 +1,76 @@
+.payment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.pay {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    input {
+        height: 35px;
+        border-radius: 5px;
+        border-color: #575757;
+        padding: 0px 10px;
+    }
+
+    img {
+        width: 100px;
+    }
+}
+
+.expiration {
+    border: 2px solid #575757;
+    border-radius: 5px;
+
+    input {
+        border: 0;
+        padding: 0px 10px;
+    }
+}
+
+.input {
+    position: relative;
+    width: 100%;
+
+    &__data {
+        width: 350px;
+        margin-bottom: 10px;
+
+        input {
+            width: 350px;
+        }
+
+        &_text {
+            font-family: Lato;
+            font-size: 12px;
+            line-height: 18px;
+            color: #575757;
+        }
+    }
+
+    &__info {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__expires {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__cvv {
+        display: flex;
+        flex-direction: column;
+
+        input {
+            width: 80px;
+        }
+    }
+}
